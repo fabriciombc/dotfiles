@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-  editor = code
+	editor = code --wait
 
 [alias]
   co = checkout
@@ -52,3 +52,10 @@
 [user]
 	email = fabriciombc@gmail.com
 	name = Fabricio Camargo
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[init]
+	defaultBranch = main
