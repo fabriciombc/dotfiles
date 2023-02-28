@@ -51,7 +51,7 @@
   rebase = false
 [user]
 	email = fabriciombc@gmail.com
-	name = Fabricio Camargo
+	name = fabriciocamargo
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
