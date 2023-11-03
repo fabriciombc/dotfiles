@@ -79,5 +79,5 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.accessibilitySupport": "off",
     "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Default High Contrast"
+    "workbench.colorTheme": "GitHub Dark"
 }
